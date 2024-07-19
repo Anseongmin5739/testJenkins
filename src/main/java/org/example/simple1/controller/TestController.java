@@ -22,4 +22,9 @@ public class TestController {
     public Map<String,String> testSm() {
         return Map.of("성민","창호");
     }
+
+    @GetMapping("/test/sm2")
+    public Map<String,String> testSm2() {
+        return Map.of("성민2","창호2");
+    }
 }
